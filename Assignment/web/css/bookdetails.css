@@ -1,0 +1,118 @@
+#flex-sa {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: orange;
+
+}
+
+#logo img {
+    max-width: 45%;
+    height: 45%;
+    border-radius: 20px;
+    margin-left:  20%;
+}
+
+#search form {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+
+#search input {
+    margin-right: 5%;
+    height: 35px;
+    padding-right: 40px;  
+}
+
+#search button{
+    height: 35px;
+}
+
+#login{
+    margin-left: 20%;
+}
+
+#login a{
+
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px; 
+    margin-right: 10px; 
+    background-color: #333;
+    color: white;
+    float: right; 
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #333; /* Màu nền */
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left; 
+    display: block; 
+    color: #fff; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    background-color: #555; 
+}
+
+.navbar a.active {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+
+    margin-top: 25px;
+}
+
+
+.table-container {
+    flex: 2;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+td:first-child {
+    font-weight: bold;
+}
+
+#info h1{
+    text-align: center;
+}
+
+#start a{
+    margin-top: 30px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block; /* Change display to inline-block */
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    float: none;
+}
