@@ -52,7 +52,7 @@ public class LoginController extends HttpServlet {
                         response.sendRedirect("./admin.jsp");
                     } 
                     else {
-                        response.sendRedirect("./login.jsp");
+                        response.sendRedirect("./home.jsp");
                     }
                     
                 } else {
